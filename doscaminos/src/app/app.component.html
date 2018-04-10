@@ -1,0 +1,17 @@
+<h1>
+  {{ title }}
+</h1>
+<h3>mi carrera es:<em> {{ carrera[1] }}</em></h3>
+<ul >
+  <li *ngFor ="let carrera of carreras">
+    {{ carrera }}
+  </li>
+  </ul>
+  <ul>
+
+  <li *ngFor = "let estado of estados ">
+    <strong>{{ estado.clave + "  " + estado.nombre }}</strong>
+    
+  </li>
+
+</ul>
