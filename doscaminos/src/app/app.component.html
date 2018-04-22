@@ -15,3 +15,25 @@
   </li>
 
 </ul>
+
+<p *ngIf = "estados.length >3"> Son muchos estados! ({{estados.length}})</p>
+
+<p[hidden]= "!visible" >Adios</p>
+
+<form>
+  
+  <!-- expreciones -->
+  <label> Como te llamas </label>
+  <!-- eventos -->
+  <p> Soy capaz de multiplicar  por {{7 * 26}} tus habilidades</p>
+  <!-- propiedades -->
+  <a (click)="visible=true">Saludar</a>
+  <p [hidden] ="visible">hola mundo!!!</p>
+
+</form>
+
+<div class="container">
+  <input [(ngModel)]
+</div>
+<!--coverir de metros a milimetros centrimetros kilometros y millas -->
+

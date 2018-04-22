@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
+
+
 import { Estado } from './estado';
+
 
 @Component({
   selector: 'app-root',
@@ -15,4 +18,21 @@ export class AppComponent {
   new Estado(3,"Chiapas","Chis"),
   new Estado(4,"Durango","Durg")
 ];
+visible=true;
+vis1=false;
+
+
+
+
+
+
+
+
+name : String ="";
+leyenda:string ="Activar"
+n1:number =0;
+n2:number =0;
+
+
 }
+
